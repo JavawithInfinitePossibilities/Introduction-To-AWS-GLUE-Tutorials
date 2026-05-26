@@ -1,0 +1,28 @@
+1.  Getting Started: Overview
+2.  [Optional] Setting Up AWS Account
+3.  Setting Up IAM User and Role
+4.  Setting Up Source Data
+    Create the Crawler
+        1.  Open Glue dashboard
+        2.  Under Data Catalog->Crawler->Create Crawler->Gave a name (flight-sources-data-crawler)->S3 location to select the data->
+5.  Creating ETL Job in AWS Glue
+6.  Running and Validating ETL Job
+7.  Getting Started
+8.  Getting Started: Additional Notes
+9.  Other courses
+
+1.  why so we need Data catalog for ETL jobs?
+A data catalog acts as a centralized, highly structured "library" for your data assets. For ETL (Extract, Transform, Load) jobs, it provides the essential metadata—such as schemas, data types, locations, and lineage—required for data pipelines to accurately read, transform, and write data without hardcoding dependencies. 
+    1. Schema Abstraction and Evolution
+    Decoupling pipelines from physical storage: Instead of hardcoding file paths or strict column definitions in your ETL scripts, your jobs can point to the catalog.Handling changes gracefully: When source schemas change (e.g., a column is added), modern data catalogs (like AWS Glue Data Catalog or Oracle Cloud Infrastructure Data Catalog) detect and adapt to these shifts, preventing pipeline failures. 
+    2.  Centralized Discovery and Self-Service
+    Finding data easily: Data catalogs provide a searchable inventory of all enterprise data, making it simple for data engineers to find sources across distributed databases and data lakes.
+    Reusability: Engineers can view existing ETL data sets, documentation, and tags to reuse previously built assets, which helps prevent redundant data pipelines and rework
+    3. Automated Data Lineage
+    Tracking data history: A data catalog maps out exactly where data originates (the source), what transformations occur in the ETL pipeline, and where it ultimately lands (the destination or data warehouse).
+    Impact analysis: If a source system changes, lineage tracing allows you to immediately see which downstream ETL jobs and business reports will be affected
+    4. Data Governance and Security Enforcement
+    Access control: Catalogs help map centralized governance policies onto your ETL jobs.
+    Compliance: They track sensitive information (like PII), ensuring ETL jobs appropriately mask or restrict access to restricted data in compliance with enterprise regulations
+    5. Improved Data Quality
+    Monitoring integrity: Catalogs integrate with data quality frameworks to log profiling metrics (e.g., null percentages, missing values, and uniqueness). This allows your ETL jobs to check for data anomalies before pushing bad data to downstream production environments

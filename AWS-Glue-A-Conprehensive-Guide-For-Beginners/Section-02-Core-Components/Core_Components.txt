@@ -1,0 +1,8 @@
+1.  Core Components : Overview
+2.  AWS Glue Data Catalog:  The AWS Glue Data Catalog is a centralized, serverless metadata repository that stores structural and operational information about your data assets.
+3.  Data Catalog: Database
+4.  Data Catalog: Tables
+5.  Data Catalog: Additional Notes
+6.  Crawler
+7.  AWS Glue Job
+8.  Core Components

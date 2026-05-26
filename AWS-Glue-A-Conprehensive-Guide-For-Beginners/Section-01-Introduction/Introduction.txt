@@ -1,0 +1,6 @@
+1.  Welcome Note
+2.  AWS Glue - 101
+    AWS Glue is a serverless data integration service that makes it easier for analytics users to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development.You can discover and connect to 80+ diverse data stores.You can manage your data in a centralized data catalog.Data Engineers, ETL developers, data analysts, and business users can use AWS Glue Studio to create, run, and monitor ETL pipelines to load data into data lakes.AWS Glue Studio offers Visual ETL, Notebook, and code editor interfaces, so users have tools appropriate to their skillsets.With Interactive Sessions, data engineers can explore data as well as author and test jobs using their preferred IDE or notebook.AWS Glue is serverless and automatically scales on demand, so you can focus on gaining insights from petabyte-scale data without managing infrastructure.Get started with AWS Glue by creating an AWS account.
+3.  What is ETL?
+    https://aws.amazon.com/what-is/etl/
+4.  Course overview
