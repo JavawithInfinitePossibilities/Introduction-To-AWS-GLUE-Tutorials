@@ -1,0 +1,19 @@
+1.  Data Catalog and Preparation: Overview
+2.  Crawler: Supported Data Stores
+    https://docs.aws.amazon.com/glue/latest/dg/crawler-data-stores.html
+3.  Glue Connection
+4.  Demo: AWS Glue Connection
+5.  AWS Glue Connection: Notes
+6.  Crawler: Built-In Classifiers
+7.  Crawler: Custom Classifiers
+8.  Demo: Creating Custom Classifiers
+9.  Table Partitions: Overview
+10. Demo: Table Partitions
+11. Table Partitions Index: Overview
+12. Demo: Table Partition Index: Part 1
+13. Demo: Table Partitions Index: Part 2
+14. Demo: Table Partition Index: Additional Notes
+15. Column Statistics: Overview
+16. Demo: Column Statistics
+17. Data Discovery
+18. Data Discovery : Notes & References
